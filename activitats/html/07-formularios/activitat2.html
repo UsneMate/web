@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat 2</title>
+</head>
+<body>
+    <a href="../../activitats.html">Inici</a>
+    <form>
+        <fieldset>
+            <legend>Dades Client</legend>
+          
+            <label for="nom">Nom:</label>
+            <input id="nom" type="text" name="nom" required placeholder="escriu el teu nom">
+            <br>
+
+            <label for="cognoms">Cognoms:</label>
+            <input id="cognoms" type="text" name="cognoms" required placeholder="escriu els teus cognoms">
+            <br>
+
+            <label for="correu">Email:</label>
+            <input id="correu" type="email" name="correu" required placeholder="escriu el teu email">
+            <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dades Article</legend>
+            <select name="altaveusmodel">
+                <option value="" aria-label="altaveusmodel" disabled selected>Tria el model de l'altaveu</option>
+                <option value="0">R4</option>
+                <option value="1">R5</option>
+                <option value="2">SR1</option>
+            </select>
+
+            <label for="potencia">Potencia:</label>
+            <input id="potencia" type="number" name="potencia" required placeholder="escriu un valor entre 50 i 100">
+            <br>
+
+            <select name="bluetooth">
+                <option value="" aria-label="bluetooth" disabled selected>Bluetooth?</option>
+                <option value="0">Si</option>
+                <option value="1">No</option>
+            </select>
+
+            <select name="color">
+                <option value="" aria-label="color" disabled selected>Tria el color</option>
+                <option value="0">Negre</option>
+                <option value="1">Blanc</option>
+                <option value="2">Plata</option>
+            </select>
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
