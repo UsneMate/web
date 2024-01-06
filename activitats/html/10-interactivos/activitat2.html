@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat 2</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ol>
+                <li>
+                    <a href="../../activitats.html">Inici</a>
+                </li>  
+            </ol>  
+        </nav>
+        <h1>Cercador d'smartphones</h1>
+    </header>
+
+    <main>
+        <section>
+            <form action="#">
+                <label>Tria la marca:
+                    <input list="marques-smartphones" type="text" name="marques-smartphones">
+                </label>
+                <datalist id="marques-smartphones">
+                    <option value="Samsung"></option>
+                    <option value="Huawei"></option>
+                    <option value="Apple"></option>
+                    <option value="Xiaomi"></option>
+                    <option value="Motorola"></option>
+                </datalist>
+                <label for="preu">tria el tram de preu:</label>
+                <select name="preu" id="preu">
+                  <option value="0-100">Fins a 100 &euro;</option>
+                  <option value="101-200">Entre 101 &euro; i 200 &euro;</option>
+                  <option value="201+">Més de 200 &euro;</option>
+                </select>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>Copyright web Museu del Prado.</footer>
+</body>
+</html>
