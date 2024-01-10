@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Activitat 1</title>
     <style>
-        :root{
-            --costat:10rem;
-        }
-        .quadrat {
-            width: calc(var(--costat)*2);
-            height: var(--costat);
+        .nav{
             background-color: #D95B43;
-}
+        }
+        .nav__item, .nav__item--link {
+            color:white;
+            font-style: bold;
+        }
+        form{
+            border:#D95B43 2px;
+        }
 
     </style>
 </head>
@@ -22,32 +24,32 @@
             <img
                 src="../../img/GosPelEDIt.jpeg"
                 alt="Logo de GosPelEDIt"
-                width="150"
+                width="150" class="logo"
             >
         </a>
-        <nav>
+        <nav class="nav">
             <ol>
-                <li>
-                    <a href="../../activitats.html">Inici</a>
+                <li class="nav__item">
+                    <a href="../../activitats.html" class="nav__item--link">Inici</a>
                 </li> 
-                <li>
-                    <a href="quisom.html">Qui som?</a>
+                <li class="nav__item">
+                    <a href="quisom.html" class="nav__item--link">Qui som?</a>
                 </li>
-                <li>
-                    <a href="serveis">Serveis</a>
+                <li class="nav__item">
+                    <a href="serveis" class="nav__item--link">Serveis</a>
                 </li>
-                <li>
-                    <a href="botiga.html">La Botiga</a>
+                <li class="nav__item">
+                    <a href="botiga.html" class="nav__item--link">La Botiga</a>
                 </li> 
-                <li>
-                    <a href="contacte.html">Contacte</a>
+                <li class="nav__item">
+                    <a href="contacte.html" class="nav__item--link">Contacte</a>
                 </li> 
             </ol>  
         </nav>
-        <form action="#">
-            <label for="cerca">Cerca a Google:</label>
-            <input type="search" id="cerca" name="cerca">
-            <button type="submit">Enviar</button>
+        <form action="#" class="form">
+            <label for="cerca" class="form__label">Cerca a Google:</label>
+            <input type="search" id="cerca" name="cerca" class="form__input">
+            <button type="submit" class="form__submit">Enviar</button>
         </form>
     </header>
 
