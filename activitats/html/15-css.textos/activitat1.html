@@ -21,22 +21,52 @@
             font-weight: 300;
         }
 
+        @font-face {
+            font-family: "Roboto";
+            src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2) format('woff2');
+            font-display: swap;
+            font-weight: 500;
+        }
+
+        body{
+            width: 80%;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1rem;
+        }
+
+        
+
         h1{
             font-family: 'Roboto', sans-serif;
             font-size: 2rem;
             font-weight: 900;
             text-decoration: underline;
+            letter-spacing: 0.1rem;
+            text-transform: uppercase;
+        }
+        h1:hover{
+            color:blue;
+            font-style: italic;
         }
 
         .autor{
             font-family: 'Roboto', sans-serif;
-            color: rgb(156, 154, 154);
+            color: rgb(82, 79, 79);
             font-style: normal;
             font-weight: 300;
-            
+            word-spacing: 0.15rem;
         }
-    </style>
 
+        .proleg{
+            font-size: 1.5rem;
+            font-style: normal;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+        p{
+            text-align:justify;
+        }
     </style>
 </head>
 <body>
@@ -55,7 +85,7 @@
         <header>
             <h1>Moby Dick</h1>
             <p class="autor">Herman Melville</p>
-            <h2>Pròleg</h2>
+            <h2 class="proleg">Pròleg</h2>
         </header>
         <p>
             Vivim temps en què els homes poden arponear impunement a les ballenas. A despecho de tots 
