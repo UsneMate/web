@@ -29,7 +29,7 @@
         .img{
             float:right;
             position:relative;
-            top:-15rem;
+            top:-16rem;
             left: -2rem;
             text-align: center;
             width: 15rem;
@@ -86,17 +86,16 @@
             border: solid 1px red;
 
         }
-
         .important{
             width: 100%;
             background-color: rgb(198, 242, 242);
             border: solid 1px rgb(21, 19, 19);
-            text-align: center !important;
         }
-        .important p{
+        .important__p{
             width: 100%;
             font-size: 0.8rem;
             border: solid 1px red;
+            
 
         }
 
@@ -125,13 +124,15 @@
             <div class="img">
                 <img src="../../img/cafeteria.png" alt="persones que prenen un café" width="250">
             </div>
-            <form action="#">
-                <button type="submit" class="submit">Subscriute</button>
-                <button type="submit" class="submit1">Comparar plans</button>
-            </form>
+            <div>
+                <form action="#">
+                    <button type="submit" class="submit">Subscriute</button>
+                    <button type="submit" class="submit1">Comparar plans</button>
+                </form>
+            </div>
             <div class="important">
-                <p>Mailchimp ha estat adquirida per Intuit. El nostre cofundador 
-                    i CEO va compartir la notícia amb els nostres clients. Llegeix-la <a hrf="">aquí</a> en anglès.</p>
+                <p class="important__p">Mailchimp ha estat adquirida per Intuit. El nostre cofundador 
+                    i CEO va compartir la notícia amb els nostres clients. Llegeix-la <a href="#">aquí</a> en anglès.</p>
             </div>
         </section>
     </main>
