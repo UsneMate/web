@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat 1</title>
+    <style>
+
+        main{
+            display: flex;
+        }
+        .noria{
+
+            width: 12.5rem;
+            height: 12.5rem;
+            background: radial-gradient(orange 10px, green 30%, rgb(153, 0, 255) 50%);
+            border-radius: 50%;
+            margin:0 auto;
+            animation-name: gira;
+            animation-iteration-count: infinite;
+
+        
+        }
+        .base{
+            width: 1.5rem;
+            height: 10rem;
+            background-color: rgb(43, 86, 226);
+            position: absolute;
+            left:49.2%;
+            top:19.5%;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        .terra{
+            width: 15rem;
+            height: 1.5rem;
+            background-color: green;
+            position:absolute;
+            top:40%;
+            left: 42%;
+        }
+        @keyframes gira {
+            from {
+                transform: rotate(0);
+            }
+            to {
+                transform: rotate(360);
+            }
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ol>
+                <li>
+                    <a href="../../activitats.html">Inici</a>
+                </li>  
+            </ol>  
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="noria"></div>
+        <div class="base"></div>
+        <div class="terra"></div>
+        
+    </main>
+
+    <footer>Copyright activitats CSS</footer>
+
+</body>
+</html>
+
+
+
+
+
