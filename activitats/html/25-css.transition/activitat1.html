@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat 1</title>
+    <style>
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Hw3aXpsog.woff2) format('woff2');
+        }
+        .formulari{
+            width: 20rem;
+            background-color: rgb(227, 218, 236);
+            padding: 2.5rem;
+        }
+        .formulari__label{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 1rem;
+            text-align: left;
+            margin-right: 2rem;
+        }
+        .formulari__input{
+            margin-bottom: 0.3rem;
+            margin-top: 0.3rem;
+            width: 100%;
+            height: 20px;
+            border:solid 1px blueviolet;
+            border-radius: 3px;
+            padding-left: 5px;
+        }
+        .formulari__input:hover{
+            border:none;
+            width: 105%;
+            height: 25px;
+            transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+            animation-duration: 2s;
+        }
+        .submit{
+            width: 5rem;
+            margin-top: 0.5rem;
+            border: none;
+            background-color: blueviolet;
+            color:white;
+            padding: 0.5em 0.8rem;
+            font-weight: bold;
+        }
+        .submit:hover{
+            opacity: 0.5;
+            transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+            animation-duration: 2s;
+        }
+    </style>
+</head>
+<body>
+    <a href="../../activitats.html">Inici</a>
+    <form action="#" method="post" class="formulari">
+        <label for="nom" class="formulari__label">Nom:</label>
+        <input id="nom" type="text" name="nom" required placeholder="escriu el teu nom" class="formulari__input">
+        <br>
+
+        <label for="telefono" class="formulari__label">Telèfon:</label>
+        <input type="tel" name="telefono" required placeholder="escriu el teu telefono" class="formulari__input">
+        <br>
+
+        <button type="submit" class="submit">Enviar</button>
+        
+    </form>
+    
+</body>
+</html>
