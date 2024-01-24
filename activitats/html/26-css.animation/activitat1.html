@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat 1</title>
+    <style>
+
+        main{
+            display: flex;
+        }
+        .cercle__groc{
+            border-radius: 50%;
+            margin:0 auto;
+            width: 15rem;
+            height: 15rem;
+            background-color: rgb(246, 177, 48);
+            animation: none;
+        
+        }
+        .cercle__blau{
+            border-radius: 50%;
+            width: 15rem;
+            height: 15rem;
+            background-color: rgb(93, 93, 242);
+            animation-name: lluna;
+            animation-duration: 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes lluna {
+            from {
+                transform: translateX(0);
+            }
+            to {
+                transform: translateX(-40rem);
+            }
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ol>
+                <li>
+                    <a href="../../activitats.html">Inici</a>
+                </li>  
+            </ol>  
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="cercle__groc"></div>
+        <div class="cercle__blau"></div>
+        
+    </main>
+
+    <footer>Copyright activitats CSS</footer>
+
+</body>
+</html>
+
+
+
+
+
