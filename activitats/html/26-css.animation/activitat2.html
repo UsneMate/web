@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Activitat 1</title>
+    <title>Activitat 2</title>
     <style>
 
         main{
@@ -13,11 +13,11 @@
 
             width: 12.5rem;
             height: 12.5rem;
-            background: radial-gradient(orange 10px, green 30%, rgb(153, 0, 255) 50%);
+            background-image: conic-gradient(orange, green, violet, red, blue, grey);
             border-radius: 50%;
             margin:0 auto;
-            animation-name: gira;
-            animation-iteration-count: infinite;
+            animation: rotation 10s infinite linear;
+
 
         
         }
@@ -39,12 +39,12 @@
             top:40%;
             left: 42%;
         }
-        @keyframes gira {
+        @keyframes rotation {
             from {
-                transform: rotate(0);
+                transform: rotate(0deg);
             }
             to {
-                transform: rotate(360);
+                transform: rotate(360deg);
             }
         }
 
