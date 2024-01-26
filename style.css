@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+
+/*declaro css general*/
+/*faig variables dels colors*/
+:root{
+    --theme-color: white;
+    --prymary-color: #e30613;
+    --secundary-color: #7264a9;
+    --text-color:black;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    min-width: 100%;
+    background-color: var(--theme-color);
+    min-height: 100%;
+}
+
+.grid-container{
+    display:grid;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*css pagina principal*/
+.main--start{
+    background-color: var(--prymary-color);
+    min-height: 100%;
+}
+
+img{
+    width: 500px;
+}
+
