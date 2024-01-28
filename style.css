@@ -177,12 +177,11 @@ body{
     border-top-right-radius: 8rem;
     border-color: var(--prymary-color);
     border-style: groove;
-    border-width: 1rem;
+    border-width: 0.7rem;
     display: flex;
     align-items: center;
 }
 .sobremi-contedidor{
-    /*border:#1d2bc2 2px solid;*/
     width: 100%;
     height: 100%;
     padding: 2rem;
@@ -200,7 +199,7 @@ body{
     text-align: left;
     /*border:#bc9b20 2px solid;*/
 }
-.explicacio--disseny h2, .explicacio--desemvolupadora h2{
+.explicacio--disseny h2, .explicacio--desemvolupadora h2, .contacte-contenidor h2{
     font-weight: 800;
     font-size: 1.5rem;
     color:var(--prymary-color);
@@ -238,4 +237,84 @@ body{
     width: 100%;
     /*border:#bc9b20 2px solid;*/
 }
+
+/*css contacte*/
+.contacte-contenidor{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    /*border:1px solid red;*/
+    padding-top: 4rem;
+}
+.contacte-contenidor p{
+    font-weight: 400;
+    font-size: 1rem;
+}
+.contacte--formulari{
+    width: 70%;
+    margin:1rem auto;
+    border:solid 2px var(--complementari-color);
+    border-radius: 1rem;
+    padding: 2rem;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: left;
+    background-color: var(--complementari-color);
+}
+.contacte--formulari label, .contacte--formulari input, .contacte--formulari textarea{
+    width: 100%;
+    height: 2rem;
+    border-radius: 1rem;
+    margin: 0.6rem 0;
+    color:var(--secundary-color);
+    font-weight: 600;
+    color:var(--theme-color);
+}
+.contacte--formulari input{
+    border:1px solid var(--complementari-color);
+    padding-left: 0.5rem;
+    font-weight: 300;
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.contacte--formulari textarea{
+    height: 5rem;
+    font-weight: 300;
+    font-size: 0.9rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    resize: none;
+}
+.contacte--submit{
+    width: 6rem;
+    height: 2rem;
+    padding: 0.2rem;
+    background-color: var(--theme-color);
+    color: var(--prymary-color);
+    border-radius: 0.2rem;
+    border:none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    margin:0.5rem 40%;   
+}
+.contacte--submit:hover{
+    color:var(--theme-color);
+    background-color: var(--secundary-color);
+    transition: 1s;
+}
+
+/* css activitats*/
+.activitats-contedidor{
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+
+
 
