@@ -8,28 +8,81 @@
 
         main{
             display: flex;
+            height: 100vh;
         }
         .rellotge{
+            margin:0 auto;
+            position: relative;
             width: 12.5rem;
             height: 12.5rem;
             background:rgb(244, 237, 237);
             border:1px solid black;
             border-radius: 50%;
-            margin: 5rem auto;
         }
         .hores{
-            width: 8px;
-            height: 60px;
-            background-color: #ab1010;
+            position:absolute;
+            left:5.75rem;
+            top:2.5rem;
             transform-origin: 50% 100%;
+            width: 8px;
+            height: 70px;
+            background-color: #150404;
+            animation: rotarHora 43200s infinite linear;
+            z-index: 1;
 
         }
 
         .minuts{
-            width: 4px;
+            position:absolute;
+            left:5.75rem;
+            top:1.8rem;
+            transform-origin: 50% 100%;
+            width: 8px;
             height: 80px;
-            position: relative;
-            background-color: #333;
+            background-color: #bd2c2c;
+            transform-origin: 50% 100%;
+            animation: rotarMinut 3600s infinite steps(60);
+            z-index: 2;
+        }
+
+        .segons{
+            position:absolute;
+            left:6rem;
+            top:1.5rem;
+            transform-origin: 50% 100%;
+            width: 2px;
+            height: 85px;
+            background-color: #62dc21;
+            transform-origin: 50% 100%;
+            animation: rotarSegons 60s infinite steps(60);
+            z-index: 3;
+        }
+
+        @keyframes rotarHora{
+            from{
+                transform:rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes rotarMinut{
+            from{
+                transform:rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes rotarSegons{
+            from{
+                transform:rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
         }
 
 
@@ -52,6 +105,7 @@
         <div class="rellotge">
             <div class="hores"></div>
             <div class="minuts"></div>
+            <div class="segons"></div>
         </div>
 
         

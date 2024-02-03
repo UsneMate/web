@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat 4</title>
+    <style>
+        .contenidor{
+            width: 30rem;
+            height: 20rem;
+            margin:50px auto;
+            background-color: #00b8de; 
+            display: grid;
+            place-content: center;
+            color: #000;
+        }
+        .carregant{ 
+            position: relative; 
+            color: #FFF;
+            margin-top: 2em;
+            letter-spacing: 0.08em;
+            text-transform: uppercase
+        }
+
+        .roda {
+            border: 10px solid rgba(255, 255, 255, .3);
+            border-radius: 50%;
+            border-left-color: transparent;
+            width: 80px;
+            height: 80px;
+            animation: giro 1s linear infinite;
+        }
+
+        @keyframes giro {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ol>
+                <li>
+                    <a href="../../activitats.html">Inici</a>
+                </li>  
+            </ol>  
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="contenidor">
+            <div class="contenidor-loader">
+              <div class="roda"></div>
+            </div>
+            <div class="carregant">Carregant...</div>
+            
+          </div>
+
+        
+    </main>
+
+    <footer>Copyright activitats CSS</footer>
+
+</body>
+</html>
+
+
+
+
+
