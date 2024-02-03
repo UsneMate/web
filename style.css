@@ -305,98 +305,103 @@ body{
 }
 
 /* css activitats*/
-.main--activitats{
-    width: 80%;
-    margin:0 auto;
-    background-color: var(--theme-color);
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border-bottom-left-radius: 10rem;
-    border-top-right-radius: 8rem;
-    border-color: var(--prymary-color);
-    border-style: groove;
-    border-width: 0.7rem;
-    display: flex;
-    align-items: center;
-}
 .contenidor--activitats{
-    width: 100%;
-    padding: 2rem;
+    width: 92%;
+    height: 100%;
     margin: 0 auto;
-    border:1px solid rgb(23, 12, 177);
+    padding-top: 2rem;
 }
 .contenidor--activitats .titol{
     width: 100%;
     display: flex;
     float:right;
-    /*border:1px green solid;*/
+    text-align: center;
 }
-.contenidor--activitats .titol h2{
+.contenidor--activitats .titol .titol--esquerra, .contenidor--activitats .titol .titol--dreta{
     width: 50%;
     font-weight: 800;
     font-size: 1.5rem;
     color:var(--prymary-color);
     margin-bottom: 15px;
-    line-height: 1.6rem;
-    /*border:1px rgb(227, 171, 16) solid;*/
+    margin-left: -3rem;
 }
+
 .activitats--llistes{
     width: 100%;
     display:flex;
-    /*border:solid 1px rgb(52, 32, 233);*/
 }
-.llistes--html, .llistes--css{
-    width: 50%;
+.llistes--html{
+    width: 42%;
 }
-.llistes--html-seccio1, .llistes--html-seccio2{
-    width: 95%;
-    /*padding: 1.5rem;*/
-    border:solid 1px rgb(15, 111, 214);
+.llistes--css{
+    width: 58%;
+
+}
+.llistes--html-seccio1, .llistes--html-seccio2, .llistes--html-seccio3{
+    /*border:solid 1px rgb(15, 111, 214);*/
     display: flex;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
 }
 
 .llistes--css-seccio1, .llistes--css-seccio2,
 .llistes--css-seccio3{
-    width: 100%;
-    /*padding: 1.5rem;*/
-    border:solid 1px rgb(15, 111, 214);
+    /*border:solid 1px rgb(15, 111, 214);*/
     display: flex;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
 }
 
-.llistes--html-seccio1 h3, .llistes--html-seccio2 h3, .llistes--css-seccio1 h3, .llistes--css-seccio2 h3,
-.llistes--css-seccio3 h3{
+.llistes--html-seccio1 h3, .llistes--html-seccio2 h3, .llistes--html-seccio3 h3{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 1rem;
     margin-bottom: 0.2rem;
-    color:var(--text-color);
+    /*color:var(--text-color);*/
 }
 
-.llistes--html-seccio1 ul, .llistes--html-seccio2 ul, .llistes--css-seccio1 ul, .llistes--css-seccio2 ul,
-.llistes--css-seccio3 ul{
-    list-style: none;
-    margin-right: 2.2rem;
+.llistes--css-seccio1 h3,
+.llistes--css-seccio2 h3, .llistes--css-seccio3 h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
 }
-.llistes--css-seccio1 ul, .llistes--css-seccio2 ul,
-.llistes--css-seccio3 ul{
+
+.llistes--html-seccio1 ul, .llistes--html-seccio2 ul, .llistes--html-seccio3 ul{
+    list-style: none;
+    margin-right: 2.5rem;
+}
+.llistes--css-seccio1 ul, .llistes--css-seccio2 ul, .llistes--css-seccio3 ul{
     list-style: none;
     margin-right: 2rem;
 }
+.llistes--css-seccio3 .marge--dret ul{
+    list-style: none;
+    margin-right: 3.5rem;
+}
 
-.llistes--html-seccio1 ul li, .llistes--html-seccio2 ul li, .llistes--css-seccio1 ul li,
-.llistes--css-seccio2 ul li, .llistes--css-seccio3 ul li{
+.llistes--html-seccio1 ul li, .llistes--html-seccio2 ul li, .llistes--html-seccio3 ul li{
     margin-bottom: 0.10rem;
 }
-.llistes--html-seccio1 ul li a, .llistes--html-seccio2 ul li a, .llistes--css-seccio1 ul li a,
-.llistes--css-seccio2 ul li a, .llistes--css-seccio3 ul li a{
+.llistes--css-seccio1 ul li, .llistes--css-seccio2 ul li, .llistes--css-seccio3 ul li{
+    margin-bottom: 0.10rem;
+}
+.llistes--html-seccio1 ul li a, .llistes--html-seccio2 ul li a, .llistes--html-seccio3 ul li a{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 0.8rem;
     color: var(--secundary-color);
 }
-.llistes--html-seccio1 ul li a:hover, .llistes--html-seccio2 ul li a:hover
+.llistes--css-seccio1 ul li a, .llistes--css-seccio2 ul li a, .llistes--css-seccio3 ul li a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: var(--secundary-color);
+}
+.llistes--html-seccio1 ul li a:hover, .llistes--html-seccio2 ul li a:hover, .llistes--html-seccio3 ul li a:hover{
+    color: var(--complementari-color);
+}
 .llistes--css-seccio1 ul li a:hover, .llistes--css-seccio2 ul li a:hover,
 .llistes--css-seccio3 ul li a:hover{
     color: var(--complementari-color);
