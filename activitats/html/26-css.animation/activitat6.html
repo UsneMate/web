@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat 6</title>
+    <style>
+        .pendulo{
+            width: 10px;
+            height: 100px;
+            background-color: #182ed2; 
+            position: absolute;
+            left:50%;
+            animation: moviment 2s ease-in-out infinite;
+            transform-origin: 50% 0;/*origen de la transformació a la part superior*/
+        }
+
+        @keyframes moviment {
+            0%, 100% {
+                transform: rotate(0deg);
+            }
+
+            50% {
+                transform: rotate(20deg);
+            }
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ol>
+                <li>
+                    <a href="../../activitats.html">Inici</a>
+                </li>  
+            </ol>  
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="pendulo"></div>
+
+        
+    </main>
+
+    <footer>Copyright activitats CSS</footer>
+
+</body>
+</html>
+
+
+
+
+
