@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat 2</title>
+    <style>
+        .conjunt{
+            width: 20rem;
+            margin-left: 30%;
+            perspective: 200px;
+            perspective-origin: center;
+        }
+        .terra{
+            position: relative;
+            top:-3.3rem;
+            left:-2.8rem;
+            transform: rotate3d(1, 0, 0, 65deg);
+        }
+        .terra img{
+            width: 32.1rem;
+            height: 8rem;
+
+        }
+        .pared img{
+            width: 25rem;
+
+        }
+        .ovella{
+            position: relative;
+            top:-12.8rem;
+            left:12rem;
+        }
+
+        .ombra{
+            position: relative;
+            top:-24rem;
+            left:3rem;
+            transform: translateZ(-10rem);
+            filter: brightness(10%);
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ol>
+                <li>
+                    <a href="../../activitats.html">Inici</a>
+                </li>  
+            </ol>  
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="conjunt">
+            <div class="pared">
+                <img src="../../img/wall.jpg" alt="pared on surt l'ombra de l'ovella" >
+            </div>            
+            <div class="terra">
+                <img src="../../img/floor.jpg" alt="terra on es situa l'ovella">
+            </div>
+            <div class="ovella">
+                <img src="../../img/oveja.svg" alt="imatge d'un dibuix d'una ovella">
+            </div>
+            <div class="ombra">
+                <img src="../../img/oveja.svg" alt="imatge d'un dibuix d'una ovella">
+            </div>
+        </div>
+
+        
+    </main>
+
+    <footer>Copyright activitats CSS</footer>
+
+</body>
+</html>
+
+
+
+
+
