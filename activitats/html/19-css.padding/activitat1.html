@@ -20,21 +20,16 @@
             font-display: swap;
             src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Hw3aXpsog.woff2) format('woff2');
         }
-        section{
+
+
+        .entrada{
             width: 35rem;
-            height: 26.5rem;
+            height: 25rem;
+            margin:0 auto;
             background-color: rgb(238, 225, 174);
-            border: solid 1px red;
+           /* border: solid 1px red;*/
         }
-        .img{
-            float:right;
-            position:relative;
-            top:-16rem;
-            left: -2rem;
-            text-align: center;
-            width: 15rem;
-            border: solid 1px red;
-        }
+
         .text h1{
             font-family: 'Open Sans', sans-serif;
             font-weight: 700;
@@ -44,7 +39,7 @@
             padding-right: 0.5rem;
             padding-left: 2.5rem;
             padding-top: 2.5rem;
-            border: solid 1px red;
+           /* border: solid 1px red;*/
         }
 
         .text p{
@@ -55,14 +50,30 @@
             width: 15rem;
             padding-right: 0.5rem;
             padding-left: 2.5rem;
-            border: solid 1px red;
+            /*border: solid 1px red;*/
+        }
+
+        .img{
+            float:right;
+            position:relative;
+            top:-16rem;
+            left: -2rem;
+            text-align: center;
+            width: 15rem;
+            /*border: solid 1px red;*/
+        }
+
+        form{
+            margin-left: 2.5rem;
+            padding-top: 0.5rem;
+          /* border: solid 1px red;*/
         }
         .submit{
             font-weight:bold;
             font-size: 0.7rem;
             padding: 0.6rem;
             width: 7rem;
-            margin-bottom: 1rem;
+            /*margin-bottom: 1rem;*/
             background-color: rgb(27, 85, 201);
             color:white;
             border:none;
@@ -74,31 +85,23 @@
             font-size: 0.7rem;
             padding: 0.6rem;
             width: 7rem;
-            margin-bottom: 1rem;
             color:rgb(27, 85, 201);
             border:none;
-            display:inline-block;
-            border: solid 1px red;
+            /*border: solid 1px red;*/
         }
-        form{
-            margin-left: 2.5rem;
-            padding-top: 0.5rem;
-            border: solid 1px red;
 
-        }
         .important{
+            margin-top: 1.5rem;
             width: 100%;
             background-color: rgb(198, 242, 242);
             border: solid 1px rgb(21, 19, 19);
-        }
-        .important__p{
-            width: 100%;
-            font-size: 0.8rem;
-            border: solid 1px red;
-            
-
+            font-size: 10px;
+            /*text-align: center;*/
         }
 
+        .important p{
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -131,8 +134,8 @@
                 </form>
             </div>
             <div class="important">
-                <p class="important__p">Mailchimp ha estat adquirida per Intuit. El nostre cofundador 
-                    i CEO va compartir la notícia amb els nostres clients. Llegeix-la <a href="#">aquí</a> en anglès.</p>
+                <p>Mailchimp ha estat adquirida per Intuit. El nostre cofundador i CEO va compartir
+                     la notícia amb els nostres clients. Llegeix-la <a href="#">aquí</a> en anglès.</p>
             </div>
         </section>
     </main>
