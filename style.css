@@ -374,7 +374,7 @@ body{
 }
 .llistes--css-seccio1 ul, .llistes--css-seccio2 ul, .llistes--css-seccio3 ul{
     list-style: none;
-    margin-right: 2rem;
+    margin-right: 1.5rem;
 }
 .llistes--css-seccio3 .marge--dret ul{
     list-style: none;
