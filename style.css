@@ -469,8 +469,19 @@ body{
 }
 
 .wireframes a:hover{
-    color:var(--secundary-color);
+    color:var(--prymary-color);
+    transition: 1s;
 
+}
+
+.wireframes:hover{
+    margin:0 auto;
+    width: 15rem;
+    height: 15rem;
+    background-color: var(--theme-color);
+    border-radius: 50%;
+    border:2px solid var(--complementari-color);
+    transition: 1s;
 }
 
 
