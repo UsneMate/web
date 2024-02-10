@@ -406,3 +406,71 @@ body{
 .llistes--css-seccio3 ul li a:hover{
     color: var(--complementari-color);
 }
+
+/* css curriculum*/
+
+.curriculum-contenidor{
+    /*border:2px red solid;*/
+    width: 90%;
+    margin:0rem auto;
+    display: flex;
+}
+
+.curriculum--dades, .curriculum--estudis,
+.curriculum--habilitats{
+    width: 30%;
+    margin-right: 2rem;
+}
+
+.curriculum-contenidor h2{
+    font-weight: 800;
+    font-size: 1.5rem;
+    color:var(--prymary-color);
+    margin-bottom: 15px;
+    line-height: 1.6rem;
+}
+
+.curriculum-contenidor h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+    padding-top: 0.5rem;
+}
+
+/* css wiframes*/
+.wireframes-contenidor{
+    /*border:2px red solid;*/
+    width: 90%;
+    margin:0rem auto;
+    display: flex;
+}
+
+.seccions{
+    width: 30%;
+    margin:0 auto;
+    /*border:2px red solid;*/
+}
+
+.wireframes{
+    margin:0 auto;
+    width: 15rem;
+    height: 15rem;
+    background-color: var(--complementari-color);
+    border-radius: 50%;
+}
+
+.wireframes h2{
+    font-weight: 800;
+    font-size: 1.5rem;
+    color:var(--theme-color);
+    line-height: 2rem;
+    padding-top: 36%;
+}
+
+.wireframes a:hover{
+    color:var(--secundary-color);
+
+}
+
+
