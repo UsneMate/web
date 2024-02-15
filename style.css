@@ -496,16 +496,15 @@ body{
     margin-top: 0.7rem;
     margin-right: 1.7rem;
     padding-left: 0.8rem;
-  }
+}
 
-  .feedbuttonatom{
+.feedbuttonatom{
     width: 5.5rem;
-  }
+}
 
-  .feedbuttonrss:hover, .feedbuttonatom:hover{
+.feedbuttonrss:hover, .feedbuttonatom:hover{
     transition: 1s;
     color: #F60 !important;
 }
-
 
   /*a.feedbutton:link, a.feedbutton:visited, a.feedbutton:active, a.feedbutton:hover*/
