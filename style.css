@@ -145,7 +145,7 @@ body{
     display: flex;
     align-items: start;
     /*border:1px solid red;*/
-    padding-left: 12.5rem;
+    padding-left: 2rem;
 }
 
 .footer--xarxes-item{
@@ -158,11 +158,11 @@ body{
     float:right;
     padding-right: 2rem;
     font-size: 2.5rem;
-   /* border:1px solid red;*/
+    /*border:1px solid red;*/
 }
 .footer--xarxes a:hover{
     transition: 1s;
-    font-size: 3.2rem;
+    font-size: 3rem;
     color: var(--complementari-color);
 }
 
@@ -487,17 +487,27 @@ body{
 
 /*feed*/
 
-.feedbutton {
-    width: 8rem;
+.feedbuttonrss, .feedbuttonatom {
+    width: 4rem;
     border: 1px solid;
-    border-color: #FC9 #630 #330 #F96;
-    font: bold 8px sans-serif;
+    /*border-color: #FC9 #630 #330 #F96;*/
+    font: bold 1.5rem sans-serif !important;
     color: #fff;
-    background: #F60;
+    /*background: #F60;*/
     text-decoration: none;
-    margin-right: 1rem;
-    padding-left: 1.5rem;
+    margin-top: 0.7rem;
+    margin-right: 1.8rem;
+    padding-left: 0.8rem;
   }
+
+  .feedbuttonatom{
+    width: 5.5rem;
+  }
+
+  .feedbuttonrss:hover, .feedbuttonatom:hover{
+    transition: 1s;
+    color: #F60 !important;
+}
 
 
   /*a.feedbutton:link, a.feedbutton:visited, a.feedbutton:active, a.feedbutton:hover*/

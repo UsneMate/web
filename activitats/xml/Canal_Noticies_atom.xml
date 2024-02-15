@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	  <title>Noticies Ficticies sobre informàtica</title>
+	  <link>file:///C:/Users/Casa/Documents/GitHub/web/activitats/xml/Canal_Noticies_rss.xml</link>
+	  <description>Canal de notícies fictícies sobre un treball de classe</description>
+    <language>ca</language>
+    <author>
+      <name>Fictici fictici</name>
+    </author>
+    <id></id>
+		<entry>
+			<title>Descoberta una Avançada Tecnologia de Computació Quàntica</title>
+			<summary>Noticia fictícia número 1</summary>
+			<updated>15/02/2024</updated>
+			<content>Científics de la fictícia empresa QuantumTech Inc. han anunciat un 
+			assoliment innovador en el camp de la computació quàntica, presentant un prototip que
+			 destaca per la seva increïble capacitat de processament. Anomenat 'QuantumNova,' aquest 
+			 processador quàntic promet revolucionar industries des de la criptografia fins a la descoberta
+			  de medicaments, oferint la capacitat de resoldre problemes complexos a velocitats mai vistes.</content>
+		</entry>
+    <entry>
+			<title>El Marvel de la Ciberseguretat Alimentat per Intel·ligència Artificial 'SentinelX' Frustra un Enorme Atac Cibernètic Global</title>
+			<summary>Noticia fictícia número 2</summary>
+			<updated>15/02/2024</updated>
+			<image>
+			  <url href="../img/neus_manzano.png"></url>
+			  <title>Imatge Principal</title>
+			  <link></link>
+			  <width>450</width>
+			  <height>300</height>
+      </image>
+			<content>En un gir dramàtic dels esdeveniments, el món va ser salvat d'un atac cibernètic
+			 catastròfic gràcies a la intervenció ràpida de 'SentinelX', un sistema de defensa d'intel·ligència 
+			 artificial desenvolupat per la fictícia empresa de ciberseguretat CyberGuardians. SentinelX va 
+			 detectar i neutralitzar amb èxit el malware sofisticat, evitant milers de milions de dòlars en danys
+			  i protegint infraestructures crítiques a tot el món.</content>
+ 		</entry>
+    <entry>
+			<title>La Realitat Virtual Trencant les Barreres de la Medicina</title>
+			<summary>Noticia fictícia número 3</summary>
+			<updated>15/02/2024</updated>
+			<content>En un avenç mèdic fictici, els investigadors de l'Institut de Salut Virtual han 
+			aprofitat el poder de la tecnologia de realitat virtual (RV) immersiva per revolucionar l'atenció als pacients.
+			 Amb la seva última innovació, 'MediSphere', els metges ara poden realitzar cirurgies i consultes mèdiques
+			  a distància amb una precisió sense precedents, superant les barreres geogràfiques i proporcionant 
+			  tractaments que salven vides als pacients de zones recòndites. Aquest avenç revolucionari en la 
+			  sanitat està destinat a redefinir el futur de la medicina com la coneixem.</content>
+		</entry>
+</feed>
