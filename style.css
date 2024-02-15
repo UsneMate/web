@@ -490,10 +490,8 @@ body{
 .feedbuttonrss, .feedbuttonatom {
     width: 4rem;
     border: 1px solid;
-    /*border-color: #FC9 #630 #330 #F96;*/
     font: bold 1.5rem sans-serif !important;
     color: #fff;
-    /*background: #F60;*/
     text-decoration: none;
     margin-top: 0.7rem;
     margin-right: 1.7rem;
