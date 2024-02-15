@@ -483,3 +483,21 @@ body{
     border:2px solid var(--complementari-color);
     transition: 1s;
 }
+
+
+/*feed*/
+
+.feedbutton {
+    width: 8rem;
+    border: 1px solid;
+    border-color: #FC9 #630 #330 #F96;
+    font: bold 8px sans-serif;
+    color: #fff;
+    background: #F60;
+    text-decoration: none;
+    margin-right: 1rem;
+    padding-left: 1.5rem;
+  }
+
+
+  /*a.feedbutton:link, a.feedbutton:visited, a.feedbutton:active, a.feedbutton:hover*/
