@@ -507,4 +507,15 @@ body{
     color: #F60 !important;
 }
 
+.feedbuttonpodcast img{
+    width: 2.5rem;
+    filter: invert(100%);
+}
+
+.feedbuttonpodcast img:hover{
+    width: 2.5rem;
+    filter: invert(50%);
+}
+
+
   /*a.feedbutton:link, a.feedbutton:visited, a.feedbutton:active, a.feedbutton:hover*/
