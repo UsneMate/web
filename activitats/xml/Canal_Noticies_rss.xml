@@ -20,9 +20,9 @@
 			<description>Noticia fictícia número 2</description>
 			<pubDate>15/02/2024</pubDate>
 			<image>
-			  <url href="../img/neus_manzano.png"></url>
+			  <url>activitats\img\neus_manzano.png</url>
 			  <title>Imatge Principal</title>
-			  <link></link>
+			  <link><link>https://usnemate.github.io/web/</link></link>
 			  <width>450</width>
 			  <height>300</height>
 			</image>
